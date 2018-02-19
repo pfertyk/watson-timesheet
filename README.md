@@ -1,6 +1,6 @@
 # Watson timesheet
 
-A script to generate a PDF timesheet using [Watson](https://tailordev.github.io/Watson/).
+A script for generating PDF timesheets using [Watson](https://tailordev.github.io/Watson/).
 Combines output from `watson report` and `watson log`, while keeping the output fully colored.
 
 ## Dependencies
@@ -8,7 +8,7 @@ Combines output from `watson report` and `watson log`, while keeping the output 
 - `watson` (obviously)
 - `expect` (for interaction with `watson` and keeping the colors)
 - `aha` (for exporting the output to HTML)
-- `wkhtmltopdf` ()
+- `wkhtmltopdf` (for converting the report file to PDF)
 
 Those can be installed with 2 commands:
 - `pip install --user td-watson`
