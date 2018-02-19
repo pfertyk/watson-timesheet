@@ -1,7 +1,7 @@
 # Watson timesheet
 
 A script for generating PDF timesheets using [Watson](https://tailordev.github.io/Watson/).
-Combines output from `watson report` and `watson log`, while keeping the output fully colored.
+Combines output from `watson report` and `watson log`, while keeping the text fully colored.
 
 ## Dependencies
 
