@@ -16,20 +16,20 @@ Those can be installed with 2 commands:
 
 ## Usage
 
-`./watson-timesheet.sh [tag]`
+`./generate-watson-timesheet.sh [file]`
 
-Report will be generated for all tasks in the current month that have `tag` assigned
-to them. The output file will be named `timesheet_[current_year]_[current_month].pdf`.
+Each line of `file` should contain a name of the target file and an associated tag name (e.g. `remote worked-hours-remote`). Report will be generated for all tasks in the current month that have `tag` assigned
+to them. The output file will be named `timesheet-[current_year]-[current_month]-[target_file_name].pdf`.
 
 ## Example
 
 Command:
 
-`./watson-timesheet.sh work`
+`./generate-watson-timesheet.sh work.txt`
 
 Output file name:
 
-`timesheet_2018_02.pdf`
+`timesheet-2018-02-remote.pdf`
 
 Output preview:
 
